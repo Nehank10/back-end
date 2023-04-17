@@ -81,7 +81,7 @@ app.use('/graphql',graphqlHTTP({
 app.get('/',(req,res)=>{
     res.send('hello from backend')
 })
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 app.listen(port,()=>{
-   console.log( 'Running on 80');
+   console.log( 'Running on 8080');
 })
